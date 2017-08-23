@@ -1,4 +1,4 @@
-tinycylon toorcon 19 badge
+ToorCon 19 TinyCylon Badge
 ==========================
 
 This project is an adaptation of the [tinycylon project](https://www.dalewheat.com/products/) by [Dale Wheat](https://dalewheat.com). We only swapped 2 data pins and provided easy instructions on how to compile the new version for the toorcon 19 badge below.
@@ -45,12 +45,12 @@ First you'll need to connect your Arduino to the ATTiny13a:
 
 | Arduino | ATTiny13A |
 | ------- | --------- |
-| 5V      | VCC       |
-| GND     | GND       |
-| 13      | PB2       |
-| 12      | PB1       |
-| 11      | PB0       |
-| 10      | PB5       |
+| `5V`    | `VCC`     |
+| `GND`   | `GND`     |
+| `13`    | `PB2`     |
+| `12`    | `PB1`     |
+| `11`    | `PB0`     |
+| `10`    | `PB5`     |
 
 
 Then program your Arduino to act as an ISP by running the `arduino` gui and selecting `File` -> `Examples` -> `11.ArduinoISP` -> `ArduinoISP`. Then double check `Board`, `Port`, and `Programmer` settings and then `Upload` to the Arduino.
